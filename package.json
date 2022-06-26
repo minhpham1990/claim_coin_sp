@@ -1,0 +1,16 @@
+{
+  "name": "shopee-daily",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx codeceptjs run --steps"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "codeceptjs": "^3.3.3",
+    "playwright": "^1.22.2"
+  }
+}
