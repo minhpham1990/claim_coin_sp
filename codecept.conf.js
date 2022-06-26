@@ -6,7 +6,7 @@ exports.config = {
   helpers: {
     Playwright: {
       url: 'https://shopee.vn',
-      show: true,
+      show: false,
       browser: 'chromium',
       waitForNavigation: "networkidle0",
       restart: 'browser',
