@@ -34,6 +34,7 @@ jobs:
           command: |
             google-chrome --version
             chromedriver --version
+      - run:
           name: Run tests
           command: npm test
 
