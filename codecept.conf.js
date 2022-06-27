@@ -11,7 +11,7 @@ exports.config = {
       waitForNavigation: "networkidle0",
       restart: 'browser',
       chromium:{
-        channel:'chrome',
+        // channel:'chrome',
         userDataDir: os.homedir+'/tmp'
       },
       restart: "context",
