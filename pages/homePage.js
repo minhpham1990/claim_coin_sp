@@ -4,7 +4,7 @@ const logoutBtn = {xpath:'//span[text()="Đăng xuất"]'}
 
 class homePage {
   verifyUserLoginSuccess() {
-    I.waitForElement(shopnameLbl,10)
+    I.waitForElement(shopnameLbl,20)
     I.seeTextEquals('minhshop09',shopnameLbl)
     return this
   }
