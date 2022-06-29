@@ -4,9 +4,10 @@ type loginPage = typeof import('./pages/loginPage.js');
 type homePage = typeof import('./pages/homePage.js');
 type luckyNumberPage = typeof import('./pages/luckyNumberPage.js');
 type coinPage = typeof import('./pages/coinPage.js');
+type authenPage = typeof import('./pages/authenPage.js');
 
 declare namespace CodeceptJS {
-  interface SupportObject { I: I, current: any, loginPage: loginPage, homePage: homePage, luckyNumberPage: luckyNumberPage, coinPage: coinPage }
+  interface SupportObject { I: I, current: any, loginPage: loginPage, homePage: homePage, luckyNumberPage: luckyNumberPage, coinPage: coinPage, authenPage: authenPage }
   interface Methods extends Playwright {}
   interface I extends ReturnType<steps_file> {}
   namespace Translation {

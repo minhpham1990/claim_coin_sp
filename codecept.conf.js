@@ -25,9 +25,15 @@ exports.config = {
     loginPage: './pages/loginPage.js',
     homePage: './pages/homePage.js',
     luckyNumberPage: './pages/luckyNumberPage.js',
-    coinPage: './pages/coinPage.js'
+    coinPage: './pages/coinPage.js',
+    authenPage: './pages/authenPage.js'
   },
   bootstrap: null,
   mocha: {},
-  name: 'shopee-daily'
+  name: 'shopee-daily',
+  plugins: {
+    screenshotOnFail: {
+      enabled: false
+    }
+ }
 }
